@@ -74,7 +74,7 @@ def search():
 		sys.exit("Please enter LDAP base search : Option -f")
 		
 	searchAttribute = args.attribute
-	#this will scope the entire subtree under UserUnits
+	#this will scope the entire subtree under selected ldap base
 	searchScope = ldap.SCOPE_SUBTREE 
 	
 	try: 
