@@ -1,5 +1,11 @@
 # ldapsearch
 command line tool for ldapsearch
+
+I preselected the search scope and set it to subtree.
+And I also preselected the LDAP version and set it to version 3.
+I wanted just to avoid adding multiple options.
+
+
 usage: ldapsearch.py [-h HELP] [-H HOST] [-d [DN]] [-p [PASSWORD]] [-f FILTER]
                      [-b BASE] [-a [ATTRIBUTE [ATTRIBUTE ...]]]
                      [-o OUTPUTFILE]
